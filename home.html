@@ -3,6 +3,7 @@
     <head>
         <title>My Blog</title>
         <link rel="stylesheet" href="styles.css"></link>
+
     </head>
     <body>
         <div class="navbar">
@@ -13,10 +14,18 @@
             <h1>Sergi Navarro</h1>
             <img src="" alt="Sergi Navarro">
             <p>
-                This is my blog, here I talk about everything <br> 
-                that I feel like </be>
+                This is my blog, here I talk about everything  
+                that I feel like
             </p>
+            <button type="submit" onclick="post()">Post</button>
+            <button type="submit" onclick="deletePost()">Delete</button>
         </div>
+        <div class="filter">
+            <h3>Search by topic</h3>
+            <button click="show()">Show</button>
+        </div>
+
+    <script src="blog.js"></script>
 
     </body>
 </html>
