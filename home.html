@@ -6,9 +6,12 @@
 
     </head>
     <body>
+       
+
         <div class="navbar">
             <a href="#home">Home</a>
             <a href="#posts">Posts</a>
+            <a href="#admin">Log In</a>
         </div>
         <div class="info">
             <h1>Sergi Navarro</h1>
@@ -17,15 +20,15 @@
                 This is my blog, here I talk about everything  
                 that I feel like
             </p>
-            <button type="submit" onclick="post()">Post</button>
-            <button type="submit" onclick="deletePost()">Delete</button>
+            <button id="post" onclick="post()">Post</button>
+            <button id="delete" onclick="deletePost()">Delete</button>
         </div>
         <div class="filter">
             <h3>Search by topic</h3>
             <button click="show()">Show</button>
         </div>
 
-    <script src="blog.js"></script>
+        <script src="blog.js"></script>
 
     </body>
 </html>
